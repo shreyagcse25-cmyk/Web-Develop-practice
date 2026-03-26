@@ -1,0 +1,57 @@
+<html>
+<title> Mahadbt Scholarship Form </title>
+<h1>Mahadbt Scholarship Form</h1>
+<body bgcolor="Linen">
+<fieldset>
+<form>
+<legend> Applicant Details</legend>
+<input type="text" id="First Name" name="First Name[]" placeholder="First Name">
+<label>Enter Your First Name</label><br>
+<input type="text" id="Middle Name" name="Middle Name[]" placeholder="Middle Name">
+<label>Enter Your Middle Name</label><br>
+<input type="text" id="Last Name" name="Last Name[]" placeholder="Last Name">
+<label>Enter Your Last Name</label><br>
+<input type="email" id="email" name="email[]">
+<label>Enter Your Email</label><br>
+<label>Enter Category</label><br>
+<select id="Category" name="Category[]" placeholder="Category">
+<option>SC</option>
+<option>OBC</option>
+<option>ST</option>
+<option>OPEN</option>
+</select><br><br>
+<label>Enter District</label><br>
+<select id="District" name="District[]" placeholder="District">
+<option>Nashik</option>
+<option>Gadchiroli</option>
+<option>Satara</option>
+<option>Raigad</option>
+</select><br><br>
+</fieldset>
+<label>Enter College Name</label><br>
+<select id="College Name" name="College Name[]" placeholder="College Name">
+<option>Armed Forces Medical College</option>
+<option>GMC,Baramati</option>
+<option>GMC,Gadchiroli</option>
+</select><br><br>
+<label>Gender</label><br>
+<input type="radio" name="Male" value"Male">Male<br><br>
+<input type="radio" name="Female" value"Female">Female<br><br>
+<label>Course</label><br>
+<select id="Course" name="Course[]" placeholder="Course">
+<option>MBBS</option>
+<option>BAMS</option>
+<option>BDS</option>
+<option>Physiotherapy</option>
+</select><br><br>
+<label>Documents</label><br>
+<input type="checkbox">10th Marksheet</label><br>
+<input type="checkbox">12th Marksheet</label><br>
+<input type="checkbox">Caste Certificate</label><br>
+<input type="checkbox">Income Certificate</label><br>
+<input type="checkbox">Aadhar Card</label><br><br>
+<input type="button" name="Submit" value="Submit"><br><br>
+<input type="Reset"><br>
+</form>
+</body>
+</html>
