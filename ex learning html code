@@ -1,0 +1,78 @@
+<html>
+<head>
+    <title>Grand Plaza Hotel</title>
+</head>
+<body>
+
+    <h1>Grand Plaza Hotel</h1>
+    <hr>
+    
+    <h3>Room: Standard Cozy Room</h3>
+    <div>
+        <p>A comfortable and efficient space perfect for solo travelers or short business trips.</p>
+    </div>
+    <h4>Included Amenities:</h4>
+    <ul>
+        <li>Free High-Speed Wi-Fi</li>
+        <li>Work Desk & Ergonomic Chair</li>
+        <li>Queen Size Bed</li>
+    </ul>
+    <p><b>Price: ₹2,500 per night</b></p>
+    <hr>
+
+    <h3>Room: Deluxe Executive Suite</h3>
+    <div>
+        <p>Spacious living with a touch of elegance, featuring a city view and premium furnishings.</p>
+    </div>
+    <h4>Included Amenities:</h4>
+    <ul>
+        <li>Free High-Speed Wi-Fi</li>
+        <li>Complimentary Breakfast</li>
+        <li>King Size Bed</li>
+        <li>Mini-Bar Access</li>
+    </ul>
+    <p><b>Price: ₹5,000 per night</b></p>
+    <hr>
+
+    <h3>Room: Presidential Penthouse</h3>
+    <div>
+        <p>The pinnacle of luxury. A top-floor sanctuary with a private terrace and 24/7 butler service.</p>
+    </div>
+    <h4>Included Amenities:</h4>
+    <ul>
+        <li>All-Inclusive Dining & Drinks</li>
+        <li>Private Jacuzzi & Steam Room</li>
+        <li>Panoramic Ocean View</li>
+        <li>Airport Limousine Transfer</li>
+    </ul>
+    <p><b>Price: ₹15,000 per night</b></p>
+
+    <hr>
+
+    <h3>Book Your Stay</h3>
+    
+    <form>
+        <p>Select Room Type: 
+            <select required>
+                <option value="standard">Standard Cozy Room (₹2,500)</option>
+                <option value="deluxe">Deluxe Executive Suite (₹5,000)</option>
+                <option value="presidential">Presidential Penthouse (₹15,000)</option>
+            </select>
+        </p>
+        
+        <p>Check-in Date: <input type="date" required></p>
+        <p>Check-out Date: <input type="date" required></p>
+        
+        <p>Number of Nights: 
+            <input type="number" id="days" placeholder="0" min="1" required>
+        </p>
+
+        <p>Guest Name: <input type="text" placeholder="Enter Full Name" required></p>
+
+        <h3>Total Price: ₹0</h3>
+
+        <button type="submit">Confirm Booking</button>
+    </form>
+
+</body>
+</html>
